@@ -24,4 +24,10 @@ b   # moving backwards to the beginning of the word
 ```
 
 ## Editing
+```
+cw  # change next word
+dw  # delete next word
 
+cc  # create a new line
+dd  # delete an entire line
+```
