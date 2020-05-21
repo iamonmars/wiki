@@ -2,6 +2,9 @@
 
 [Example of vimrc file](./vimrc)
 
+## Install Plugins
+
+
 ## Save and quit
 ```
 :w  # to write
@@ -30,4 +33,26 @@ dw  # delete next word
 
 cc  # create a new line
 dd  # delete an entire line
+```
+
+## Organize the workspace
+
+### Buffers
+```
+:ls # list existing buffers
+:bd # delete specific buffer
+```
+
+### Windows
+```
+:sp # split horizontally a new window
+:vs # split vertically a new window
+```
+
+**Moving in diferent windows**
+```
+Ctrl + h    # Left window
+Ctrl + j    # Down window
+Ctrl + k    # Up window
+Ctrl + l    # Right window
 ```
