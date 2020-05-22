@@ -40,8 +40,9 @@ dw  # delete next word
 cc  # create a new line
 dd  # delete an entire line
 
-a   # places you in insert mode after the cursor
-s   # s deletes a single character
+a               # places you in insert mode after the cursor
+s               # s deletes a single character
+d + a movement  # delete through the move
 ```
 
 ## Organize the workspace
@@ -77,4 +78,29 @@ zc  # close folded lines
 :e .        # explore directory
 :NERDTree   # list files in the directory
 Ctrl + p    # open CtrlP file search input
+```
+
+## Search
+
+**In a file**
+```
+/           # search for a match by typing in
+n           # go to the next match
+N           # go to the previous match
+:noh        # clear searched highlights
+\ + \ + w   # by easy motion
+```
+
+**Across files**
+
+Firstly, we have to install ack
+```$ sudo apt-get install ack-grep```
+
+```:Ack --extension word   # :Ack --python Animal```
+
+## Copy and paste
+```
+y + a movement  # copy
+yy              # copy contents of current line
+p               # paste
 ```
