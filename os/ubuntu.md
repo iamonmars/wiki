@@ -44,6 +44,13 @@ Install oh-my-zsh via curl.
 $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
+**Let user make sudo without password**
+
+Add permission in /etc/sudoers file. Place it at the end of the file.
+```
+development ALL=(ALL) NOPASSWD:ALL
+```
+
 **Initialize Git global config**
 
 Set name and email.
